@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+
+:root{
+    --cor-do-fundo: #c5ebd6;
+}
+
+body{
+    background-color: var(--cor-do-fundo);
+}
