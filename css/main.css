@@ -1,0 +1,12 @@
+.principal{
+    background-color: var(--branco);
+}
+
+.principal__titulo {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+
+.principal__subtitulo{
+    font-family: var(--fonte-android);
+}

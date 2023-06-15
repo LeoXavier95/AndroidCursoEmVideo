@@ -1,0 +1,21 @@
+.cabecalho__corpo{
+    background-color: var(--cor4);
+}
+
+.cabecalho__titulo{
+    color: var(--branco);
+    font-family: var(--fonte-destaque);
+}
+
+.cabecalho__texto{
+    color: var(--branco);
+}
+
+.cabecalho__menu{
+    background-color: var(--cor5);
+}
+
+.cabecalho__lista{
+    list-style: none;
+    display: flex;
+}
