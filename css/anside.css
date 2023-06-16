@@ -1,0 +1,31 @@
+.informacao{
+    margin-top: 15px;
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.301);
+}
+
+.informacao__titulo{
+    background-color: var(--cor4);
+    color: var(--branco);
+    padding: 10px;
+    margin: -10px -10px 0px -10px; 
+    border-radius: 10px 10px 0 0;
+}
+
+.informacao__lista{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+@media screen and (max-width: 600px) {
+    .informacao__lista{
+        columns: 1;
+    }
+    
+}
+
+
+

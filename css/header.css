@@ -33,6 +33,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -44,7 +45,7 @@
 }
 
 
-@media screen and (min-width: 1274px) {
+@media screen and (min-width: 600px) {
 
     .cabecalho__lista{ 
         justify-content: flex-end;
@@ -56,3 +57,10 @@
         transition-duration: 0.5s;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .cabecalho__lista{ 
+        justify-content: start ;
+    }
+}
+
